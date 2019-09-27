@@ -25,14 +25,15 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
+    marginBottom: 10,
   },
+
   input: {
     width: '80%',
     borderBottomColor: "black",
     borderWidth: 1,
     padding: 10,
-    marginBottom: 10
   },
 });
 
